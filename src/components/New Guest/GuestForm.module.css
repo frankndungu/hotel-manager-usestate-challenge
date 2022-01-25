@@ -1,0 +1,61 @@
+.guest-form{
+  max-width: 60rem;
+  height: 35rem;
+  background: var(--clr-primary);
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: var(--br);
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: left;
+  height: 25rem;
+}
+.guest-form__control{
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.guest-form__control label, .guest-form__control input, input::placeholder {
+  font-size: 1.2rem;
+  color: var(--clr-dark);
+}
+.guest-form__control input{
+  border: none;
+  padding: 0.2rem 1rem;
+  outline: none;
+  border-radius: var(--br);
+}
+.guest-form__action button{
+  padding: 1rem 1.5rem ;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  border: 1px solid var(--clr-light);
+  border-radius: var(--br);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.guest-form__action button:hover{
+  color: var(--clr-dark);
+  border-color: var(--clr-dark);
+  background-color: var(--clr-light);
+}
+@media screen and (max-width: 768px) {
+  .guest-form {
+    width: 25rem;
+    font-size: 0.2rem;
+  }
+  .guest-form__control{
+    width: 20rem;
+    margin-bottom: 0.5rem;
+  }
+  .guest-form__control label, .guest-form__control input{
+    font-size: var(--fs-sm);
+  }
+}

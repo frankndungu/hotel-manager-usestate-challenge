@@ -1,0 +1,28 @@
+.date{
+  width: 40rem;
+  height: 100%;
+  display: flex;
+}
+.date__checkin, .date__checkout{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.date__checkin , .date__checkout{
+  border-right: 1px solid black;
+}
+.date__checkin{
+  border-left:1px solid black ;
+}
+@media screen and (max-width: 960px) {
+  .date{
+    width: 80%;
+  }
+  .date__checkin, .date__checkout{
+    height: 80%;
+    flex-direction: column;
+    text-align: center;
+  }
+}

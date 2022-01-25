@@ -1,0 +1,8 @@
+.chart{
+  width: 80vw;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

@@ -1,0 +1,13 @@
+.select-year label, select, option, h4, span{
+  font-size: var(--fs-sm);
+}
+span{
+  color: var(--clr-primary);
+  font-weight: 600;
+}
+select{
+  outline: none;
+  color: var(--clr-primary);
+  border-radius: var(--br);
+  border: 1px solid var(--clr-primary);
+}

@@ -1,0 +1,27 @@
+.current-guest{
+  width: 90rem;
+  height: 5rem;
+  background: var(--clr-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid var(---clr-dark);
+  border-radius: var(--br);
+  margin-bottom: 2rem;
+
+}
+.current-guest h3{
+  font-size: var(--fs-md);
+}
+@media screen and (max-width: 1475px) {
+  .current-guest{
+    width: 55rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .current-guest{
+    width: 20rem;
+    height: 25rem;
+    flex-direction: column;
+  }
+}

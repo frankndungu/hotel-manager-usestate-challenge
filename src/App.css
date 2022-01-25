@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Staatliches', cursive;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+:root{
+  --fs-sm: 1rem;
+  --fs-md: 2rem;
+  --fs-lg: 3rem;
+  
+  --clr-light: #eee;
+  --clr-dark: #111;
+  
+  --clr-primary: #0d9f9c;
+  --clr-secondary: #087596;
+
+  --br: 2px;
+}
+h1{
+  font-size: var(--fs-lg);
+}
+a, p, h3{
+  font-size: var(--fs-md);
+}
+body{
+  background: #b7b7b7;
+}
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: var(--fs-md);
+  }
+  a, p, h3{
+    font-size: var(--fs-sm);
+  }
+}
